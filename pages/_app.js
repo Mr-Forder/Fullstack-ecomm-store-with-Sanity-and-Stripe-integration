@@ -57,7 +57,11 @@ function MyApp({ Component, pageProps }) {
             onUpdate={() => console.log("Updated, but not on location change!")} // Will trigger on
           >
             <main className="App" data-scroll-container ref={containerRef}>
-              <Toaster />
+              <Toaster
+                containerStyle={{
+                  position: "fixed",
+                }}
+              />
 
               <Layout>
                 <Component {...pageProps} />

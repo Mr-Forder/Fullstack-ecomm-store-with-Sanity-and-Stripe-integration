@@ -61,7 +61,12 @@ const Cart = () => {
         </button>
         {cartItems.length < 1 && (
           <div className="empty-cart">
-            <Image src={cartIcon} />
+            <Image
+              src={cartIcon}
+              onClick={() => {
+                setShowCart(false);
+              }}
+            />
             <h3>Your bag is empty</h3>
 
             <Link href="/">

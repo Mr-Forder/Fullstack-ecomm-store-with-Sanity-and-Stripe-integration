@@ -83,6 +83,7 @@ const Title = styled(motion.h2)`
     text-align: center;
   }
   @media (max-width: 40em) {
+    margin-top: -130% !important;
   }
 `;
 const SubTitle = styled(motion.h3)`

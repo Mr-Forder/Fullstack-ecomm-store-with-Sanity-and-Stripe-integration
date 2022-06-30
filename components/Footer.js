@@ -45,7 +45,7 @@ const Footer = () => {
             <Link href={`/`}>Gokotta</Link>
           </Item>
           <Item>
-            <Link href="/">Shop</Link>
+            <Link href="/#prods">Shop</Link>
           </Item>
           <Item>
             <Link href={`/hrafn`}>Hrafn</Link>
