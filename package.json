@@ -1,0 +1,51 @@
+{
+  "name": "sanity-ecommerce",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fontsource/abhaya-libre": "^4.5.7",
+    "@fontsource/akaya-telivigala": "^4.5.2",
+    "@fontsource/archivo-narrow": "^4.5.8",
+    "@fontsource/karla": "^4.5.8",
+    "@fontsource/libre-baskerville": "^4.5.8",
+    "@fontsource/sora": "^4.5.3",
+    "@fontsource/suranna": "^4.5.9",
+    "@sanity/client": "^2.23.2",
+    "@sanity/image-url": "^1.0.1",
+    "@stripe/stripe-js": "^1.25.0",
+    "canvas-confetti": "^1.5.1",
+    "framer-motion": "^6.3.3",
+    "gsap": "^3.9.1",
+    "next": "12.1.0",
+    "next-images": "^1.8.4",
+    "next-sanity-image": "^3.2.1",
+    "normalize.css": "^8.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hot-toast": "^2.2.0",
+    "react-icons": "^4.3.1",
+    "react-intersection-observer": "^9.2.0",
+    "react-scripts": "5.0.0",
+    "react-use": "^17.3.2",
+    "stripe": "^8.209.0",
+    "styled-components": "^5.3.3",
+    "swiper": "^8.0.6",
+    "typewriter-effect": "^2.18.2",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "^12.1.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.3",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  }
+}
