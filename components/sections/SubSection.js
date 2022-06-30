@@ -8,16 +8,6 @@ import image from "../../assets/rune.svg";
 import Rune from "../Rune";
 
 const SubSection = () => {
-  const scrollTo = (id) => {
-    let element = document.getElementById(id);
-
-    element.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-      inline: "nearest",
-    });
-  };
-
   return (
     <Section id="about">
       <div class="custom-shape-divider-top-1656276281 ">

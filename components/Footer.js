@@ -42,10 +42,10 @@ const Footer = () => {
         </Left>
         <MenuItems>
           <Item>
-            <Link href={`/#about`}>Gokotta</Link>
+            <Link href={`/`}>Gokotta</Link>
           </Item>
           <Item>
-            <Link href="/#prods">Shop</Link>
+            <Link href="/">Shop</Link>
           </Item>
           <Item>
             <Link href={`/hrafn`}>Hrafn</Link>
