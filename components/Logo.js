@@ -3,6 +3,7 @@ import Image from "next/image";
 import styled from "styled-components";
 import logo from "../assets/logo.svg";
 import Link from "next/link";
+import { motion } from "framer-motion";
 const Logo = () => {
   return (
     <Link href={`/`}>
@@ -28,7 +29,13 @@ const Logo = () => {
             d="M-337.2,263.7l-28,29.1c-0.8,0.9-1.3,2-1.3,3.2v31.4c0,1.4,1.7,2.2,2.7,1.2l30.1-27.4"
           />
         </svg>
-        <div className="type">Brahe</div>
+        <motion.div
+          animate={{ opacity: 1, transition: { duration: 5, delay: 4 } }}
+          initial={{ opacity: 0 }}
+          className="type"
+        >
+          Brahe
+        </motion.div>
         {/* <svg
           version="1.1"
           id="Layer_1"

@@ -57,7 +57,7 @@ const HeroCon = styled(motion.div)`
 const SubLine = styled(motion.div)`
   width: 20rem;
   height: 2px;
-  margin-top: 5px;
+  margin-top: 5px !important;
   background: #0d6389;
 
   @media (max-width: 48em) {
@@ -67,11 +67,10 @@ const SubLine = styled(motion.div)`
 `;
 
 const Title = styled(motion.h2)`
-  /* text-shadow: 0px 14px 2px rgba(0, 0, 0, 0.1), 0px 0px 30px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 14px 2px rgba(0, 0, 0, 0.1), 0px 0px 30px rgba(0, 0, 0, 0.1);
   color: black;
 
-  font-family: "montserrat", 900;
-  font-size: 4rem; */
+  font-size: 2rem;
 
   z-index: 500;
   @media (max-width: 70em) {

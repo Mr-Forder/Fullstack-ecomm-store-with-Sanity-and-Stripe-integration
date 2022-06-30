@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Button from "./Button";
 import Link from "next/link";
 import Logo from "./Logo";
+import { motion } from "framer-motion";
 
 const Navigation = () => {
   const [click, setClick] = useState(false);
@@ -20,7 +21,11 @@ const Navigation = () => {
   };
 
   return (
-    <Section id="navigation">
+    <Section
+      id="navigation"
+      animate={{ opacity: 1, transition: { duration: 5 } }}
+      initial={{ opacity: 0 }}
+    >
       <NavBar>
         <Logo />
 
@@ -49,7 +54,7 @@ const Navigation = () => {
 
 export default Navigation;
 
-const Section = styled.section`
+const Section = styled(motion.div)`
   width: 100vw;
   background-color: transparent;
 `;

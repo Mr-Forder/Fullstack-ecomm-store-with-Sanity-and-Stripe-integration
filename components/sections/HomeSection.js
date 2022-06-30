@@ -92,7 +92,7 @@ const rotate = keyframes`
 `;
 const Round = styled(motion.div)`
   position: absolute;
-  bottom: 20rem;
+  bottom: 12rem;
   right: 10%;
   width: 6rem;
   height: 6rem;
