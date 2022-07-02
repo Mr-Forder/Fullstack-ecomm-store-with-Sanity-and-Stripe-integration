@@ -31,7 +31,14 @@ const CoverVideo = () => {
   return (
     <VideoContainer>
       {/* <DarkOverlay /> */}
-      <video src="ROOM.m4v" type="video/mp4" autoPlay muted loop />
+      <video
+        src="https://res.cloudinary.com/dh7ghfatn/video/upload/v1656784908/Room_wl7zzu.mp4"
+        type="video/mp4"
+        autoPlay
+        muted
+        loop
+      />
+
       {/* <Image src={room} className="title" layout="fill" objectFit="cover" /> */}
     </VideoContainer>
   );
