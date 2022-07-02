@@ -31,7 +31,7 @@ const CoverVideo = () => {
   return (
     <VideoContainer>
       {/* <DarkOverlay /> */}
-      <video src="../ROOM.m4v" type="video/mp4" autoPlay muted loop />
+      <video src="ROOM.m4v" type="video/mp4" autoPlay muted loop />
       {/* <Image src={room} className="title" layout="fill" objectFit="cover" /> */}
     </VideoContainer>
   );
