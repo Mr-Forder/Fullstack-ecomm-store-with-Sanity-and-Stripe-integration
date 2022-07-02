@@ -43,8 +43,8 @@ const Home = ({ products }) => {
     <div>
       <CoverVideo />
       <HomeSection />
-      {/* 
-      <motion.div
+
+      <div
         className="products-heading"
         animate={{ opacity: 1, transition: { duration: 2 } }}
         initial={{ opacity: 0 }}
@@ -59,7 +59,7 @@ const Home = ({ products }) => {
             <Product key={product._id} product={product} />
           ))}
         </div>
-      </motion.div> */}
+      </div>
       <SubSection />
       <Info />
 
