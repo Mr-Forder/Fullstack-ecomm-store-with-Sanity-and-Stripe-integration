@@ -41,7 +41,6 @@ const Layout = ({ children }) => {
       </Head>
       <header>
         <Navbar />
-
         <Navigation />
       </header>
       <main>{children}</main>

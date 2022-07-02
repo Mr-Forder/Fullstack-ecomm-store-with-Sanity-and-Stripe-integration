@@ -124,7 +124,7 @@ const Container = styled.div`
       letter-spacing: 10;
 
       color: #73848b;
-      font-size: 15px;
+      font-size: 20px;
     }
 
     @media screen and (max-width: 1200px) {

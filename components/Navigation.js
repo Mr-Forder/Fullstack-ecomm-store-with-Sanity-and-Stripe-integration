@@ -8,18 +8,6 @@ import { motion } from "framer-motion";
 const Navigation = () => {
   const [click, setClick] = useState(false);
 
-  const scrollTo = (id) => {
-    let element = document.getElementById(id);
-
-    element.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-      inline: "nearest",
-    });
-
-    setClick(!click);
-  };
-
   return (
     <Section
       id="navigation"
