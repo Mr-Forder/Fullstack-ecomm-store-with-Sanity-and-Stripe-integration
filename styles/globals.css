@@ -382,23 +382,7 @@ margin-left: 15px!important;
 
 }
 
-.cart-container {
 
-  display: flex;
-  flex-direction: column;
-  align-items:center;
-justify-content:flex-start;
-  height: 100vh;
-width: 30%;
-  background-color: white;
-  float: right;
-  position: relative;
-  padding-top:5rem;
-margin: auto;
-
-
-  
-}
 
 
 
@@ -450,6 +434,8 @@ margin: auto;
 .empty-cart {
   display: flex;
   height: 100%;
+  width:100%;
+
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -682,7 +668,38 @@ align-items: center;
 .prod-bit{
   font-size:1.2rem!important;
   margin-bottom:1rem;
+
 }
+
+
+
+
+
+
+
+.cart-container {
+
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+justify-content:flex-start;
+  height: 100vh;
+width: 30%;
+  background-color: white;
+  float: right;
+  position: relative;
+  padding-top:5rem;
+margin: auto;
+
+
+  
+}
+
+
+
+
+
+
 
 @media screen and (max-width:1200px) {
 
@@ -706,9 +723,6 @@ width: 100%;
   padding-top:0rem;
 margin: auto;
 
-
-
-  
 }
 
 
