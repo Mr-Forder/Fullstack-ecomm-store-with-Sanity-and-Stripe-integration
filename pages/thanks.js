@@ -30,7 +30,7 @@ const Thanks = () => {
             <p>We&apos;ll be in touch.</p>
           </div>
           <div>
-            <button type="button" className="btn buy-now">
+            <button type="button" className="btn buy-now back">
               <Link href={`/`}>Back to home</Link>
             </button>
           </div>
@@ -65,12 +65,17 @@ const Wrapper = styled.div`
   .ta {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+
     align-items: center;
     width: 50%;
     height: 100vh;
     h1 {
       font-size: 5rem;
+      margin: 80% 0% 10% 0% !important;
+    }
+    p {
+      margin: 2rem 0rem;
     }
   }
 `;
