@@ -10,7 +10,7 @@ import Rune from "../Rune";
 const SubSection = () => {
   return (
     <Section id="about">
-      <div class="custom-shape-divider-top-1656276281 ">
+      <div className="custom-shape-divider-top-1656276281 ">
         <svg
           className="cshape"
           data-name="Layer 1"
@@ -18,13 +18,16 @@ const SubSection = () => {
           viewBox="0 0 1200 120"
           preserveAspectRatio="none"
         >
-          <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
+          <path
+            d="M1200 0L0 0 892.25 114.72 1200 0z"
+            className="shape-fill"
+          ></path>
         </svg>
       </div>
       <Container>
         <div className="info">
           <h2>
-            The Gokotta collection marks Brahe's seventh year in business.
+            The Gokotta collection marks Brahe&apos;s seventh year in business.
           </h2>
           <p>
             Bringing together the works of Marcantonio Raimondi Malerba, Johann
@@ -37,7 +40,7 @@ const SubSection = () => {
           <h2>Hrafn</h2>
 
           <p>
-            The lynchpin of Gokotta is Marcantonio Raimondi Malerba's
+            The lynchpin of Gokotta is Marcantonio Raimondi Malerba&apos;s
             beautifully designed ravens.
           </p>
           <br></br>
@@ -67,9 +70,8 @@ const SubSection = () => {
       <VideoContainer>
         <DarkOverlay />
         <video src="../lightsplash.m4v" type="video/mp4" autoPlay muted loop />
-        {/* <Image src={room} className="title" layout="fill" objectFit="cover" /> */}
       </VideoContainer>
-      <div class="custom-shape-divider-bottom-1656276313">
+      <div className="custom-shape-divider-bottom-1656276313">
         <svg
           className="cshape"
           data-name="Layer 1"

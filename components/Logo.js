@@ -21,11 +21,11 @@ const Logo = () => {
           className="logo-anim"
         >
           <path
-            class="curved draw"
+            className="curved draw"
             d="M-363,263.7l28,29.1c0.8,0.9,1.3,2,1.3,3.2v31.4c0,1.4-1.7,2.2-2.7,1.2l-30.1-27.4"
           />
           <path
-            class="curved draw"
+            className="curved draw"
             d="M-337.2,263.7l-28,29.1c-0.8,0.9-1.3,2-1.3,3.2v31.4c0,1.4,1.7,2.2,2.7,1.2l30.1-27.4"
           />
         </svg>

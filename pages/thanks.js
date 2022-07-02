@@ -27,7 +27,7 @@ const Thanks = () => {
             <h1>Thanks!</h1>
           </div>
           <div>
-            <p>We'll be in touch.</p>
+            <p>We&apos;ll be in touch.</p>
           </div>
           <div>
             <button type="button" className="btn buy-now">
