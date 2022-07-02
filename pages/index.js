@@ -41,6 +41,25 @@ const Home = ({ products }) => {
   });
   return (
     <div>
+      <CoverVideo />
+      <HomeSection />
+      {/* 
+      <motion.div
+        className="products-heading"
+        animate={{ opacity: 1, transition: { duration: 2 } }}
+        initial={{ opacity: 0 }}
+      >
+        <div className="products-container" id="prods">
+          {ravens?.map((product) => (
+            <Product key={product._id} product={product} />
+          ))}
+        </div>
+        <div className="products-container">
+          {lighting?.map((product) => (
+            <Product key={product._id} product={product} />
+          ))}
+        </div>
+      </motion.div> */}
       <SubSection />
       <Info />
 
