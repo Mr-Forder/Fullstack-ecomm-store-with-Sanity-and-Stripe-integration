@@ -1,6 +1,6 @@
 import styled, { keyframes } from "styled-components";
 import TypeWriterText from "../TypeWriterText";
-import AboutUs from "../AboutUs";
+
 import RoundTextBlack from "../../assets/Rounded-Text-Black.png";
 import Loading from "../Loading";
 import Image from "next/image";
@@ -79,7 +79,10 @@ const SubSection = () => {
           viewBox="0 0 1200 120"
           preserveAspectRatio="none"
         >
-          <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
+          <path
+            d="M1200 0L0 0 892.25 114.72 1200 0z"
+            className="shape-fill"
+          ></path>
         </svg>
       </div>
     </Section>
