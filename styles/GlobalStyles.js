@@ -4,7 +4,6 @@ import "@fontsource/sora";
 import "@fontsource/abhaya-libre";
 import "@fontsource/suranna";
 import "@fontsource/karla";
-import "@fontsource/montserrat"; // Defaults to weight 400.
 import "@fontsource/libre-baskerville";
 import "@fontsource/archivo-narrow";
 const GlobalStyles = createGlobalStyle`
