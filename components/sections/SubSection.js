@@ -69,7 +69,13 @@ const SubSection = () => {
       </Container>
       <VideoContainer>
         <DarkOverlay />
-        <video src="../lightsplash.m4v" type="video/mp4" autoPlay muted loop />
+        <video
+          src="https://res.cloudinary.com/dh7ghfatn/video/upload/v1656786181/Lightsplash_yw3i6u.mp4"
+          type="video/mp4"
+          autoPlay
+          muted
+          loop
+        />
       </VideoContainer>
       <div className="custom-shape-divider-bottom-1656276313">
         <svg
