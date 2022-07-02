@@ -60,7 +60,7 @@ const SubSection = () => {
           </p>
         </div>
 
-        <div className="info">
+        <div className="info-rune">
           <Rune />
         </div>
       </Container>
@@ -102,6 +102,12 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  .info-rune {
+    width: 50%;
+    margin-left: -2rem !important;
+    padding-top: 5rem;
+  }
 
   .info {
     width: 50%;
