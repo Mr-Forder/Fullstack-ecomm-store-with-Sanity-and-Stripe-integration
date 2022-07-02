@@ -115,7 +115,7 @@ const Privacy = () => {
           with specific web browsers, it can be found at the browsers’
           respective websites.
         </p>
-        <h2 className="subs">Children's Information</h2>
+        <h2 className="subs">Children&apos;s Information</h2>
         <p>
           Another part of our priority is adding protection for children while
           using the internet. We encourage parents and guardians to observe,
