@@ -113,7 +113,7 @@ span.text-red {
 .logo {
   cursor: pointer;
   transition: all 0.2s ease;
-  z-index: 10000
+
 }
 
 
@@ -379,7 +379,7 @@ margin-left: 15px!important;
   right: 0;
   top: 0;
 
-  z-index: 800;
+  z-index: 8000;
   /* will-change: transform; */
   transition: all 1s ease-in-out;
 
@@ -416,7 +416,7 @@ margin-left: 15px!important;
   font-weight: 500;
   cursor: pointer;
   gap: 2px;
-  margin-left: 10px;
+padding-top: 1rem;
   border: none;
   background-color: transparent;
 }
