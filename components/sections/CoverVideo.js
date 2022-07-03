@@ -63,7 +63,7 @@ const VideoContainer = styled.section`
     }
   }
   @media (max-width: 30em) {
-    object-position: center 50%;
+    object-position: center 80%;
   }
 `;
 const DarkOverlay = styled.div`

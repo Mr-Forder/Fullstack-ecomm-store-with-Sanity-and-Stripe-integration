@@ -113,7 +113,7 @@ const Round = styled(motion.div)`
     bottom: 100%;
   }
   @media (max-width: 48em) {
-    right: 1rem;
+    visibility: hidden;
   }
 `;
 

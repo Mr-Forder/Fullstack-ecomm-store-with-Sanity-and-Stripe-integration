@@ -63,6 +63,7 @@ const SubLine = styled(motion.div)`
   @media (max-width: 48em) {
     align-self: center;
     text-align: center;
+    visibility: hidden;
   }
 `;
 
@@ -82,7 +83,9 @@ const Title = styled(motion.h2)`
     text-align: center;
   }
   @media (max-width: 40em) {
-    margin-top: -130% !important;
+    margin-top: -110% !important;
+    text-shadow: none;
+    font-size: 3.5rem;
   }
 `;
 const SubTitle = styled(motion.h3)`
@@ -115,6 +118,8 @@ const SubTitle = styled(motion.h3)`
   @media (max-width: 48em) {
     align-self: center;
     text-align: center;
+
+    visibility: hidden;
   }
 `;
 
@@ -154,5 +159,7 @@ const Blurb = styled(motion.h3)`
   @media (max-width: 48em) {
     align-self: center;
     text-align: center;
+
+    visibility: hidden;
   }
 `;

@@ -180,6 +180,7 @@ margin-left: 15px!important;
 
 }
 .order{
+
   margin-left: 24px!important;
 }
 
@@ -275,6 +276,12 @@ margin-left: 15px!important;
   height: 450px;
 }
 
+.product-container {
+  margin-top: 15px;
+  overflow: auto;
+  max-height: 70vh;
+  padding: 20px 10px;
+}
 
 .desc {
   position: absolute;
@@ -450,7 +457,6 @@ padding-top: 1rem;
   display: flex;
   height: 100%;
   width:100%;
-
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -473,12 +479,7 @@ padding-top: 1rem;
   cursor: pointer;
 }
 
-.product-container {
-  margin-top: 15px;
-  overflow: auto;
-  max-height: 70vh;
-  padding: 20px 10px;
-}
+
 
 .product {
   width: 400px;
