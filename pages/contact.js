@@ -112,7 +112,6 @@ const Wrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 5%;
     width: 50%;
     height: 100vh;
   }

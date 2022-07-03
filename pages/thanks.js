@@ -48,11 +48,11 @@ export default Thanks;
 
 const Wrapper = styled.div`
   width: 100%;
-  margin: 5rem auto;
+  margin: auto;
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 
   .img {
     width: 50%;
@@ -66,13 +66,18 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-
     align-items: center;
     width: 50%;
-    height: 100vh;
+
     h1 {
       font-size: 5rem;
       margin: 80% 0% 10% 0% !important;
+
+
+      @media screen and (max-width:1200px) {
+        margin: 40% 0% 10% 0% !important;
+  }
+}
     }
     p {
       margin: 2rem 0rem;

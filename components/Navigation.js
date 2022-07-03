@@ -23,16 +23,16 @@ const Navigation = () => {
 
         <Menu click={click}>
           <Link href={`/`}>
-            <MenuItem>Gokotta</MenuItem>
+            <MenuItem onClick={() => setClick(!click)}>Gokotta</MenuItem>
           </Link>
           <Link href={`/hrafn`}>
-            <MenuItem>Hrafn</MenuItem>
+            <MenuItem onClick={() => setClick(!click)}>Hrafn</MenuItem>
           </Link>
           <Link href={`/ljoss`}>
-            <MenuItem>Ljóss</MenuItem>
+            <MenuItem onClick={() => setClick(!click)}>Ljóss</MenuItem>
           </Link>
           <Link href={`/contact`}>
-            <MenuItem>Contact</MenuItem>
+            <MenuItem onClick={() => setClick(!click)}>Contact</MenuItem>
           </Link>
         </Menu>
       </NavBar>
