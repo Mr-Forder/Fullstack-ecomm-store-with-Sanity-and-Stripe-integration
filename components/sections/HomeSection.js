@@ -96,7 +96,7 @@ const Round = styled(motion.div)`
   right: 10%;
   width: 6rem;
   height: 6rem;
-  border: 1px solid ${(props) => props.theme.text};
+  border: 1px solid #0d6389;
   border-radius: 50%;
   z-index: 500;
 
