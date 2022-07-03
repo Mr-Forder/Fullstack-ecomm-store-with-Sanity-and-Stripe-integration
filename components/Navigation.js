@@ -137,7 +137,7 @@ const HamburgerMenu = styled.span`
   z-index: 52;
   height: 2px;
   background: ${(props) => props.theme.text};
-  margin: 2px;
+  margin: 2px 0px;
   position: absolute;
   top: 2rem;
   left: 50%;
