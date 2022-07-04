@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
           sizes="16x16"
           href="/images/favicon-16x16.png"
         />
-        <title>Gokota</title>
+        <title>Brahe Presents: Gokotta</title>
       </Head>
       <header>
         <Navbar />
