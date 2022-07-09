@@ -33,6 +33,14 @@ const SubSection = dynamic(() => import("../components/sections/SubSection"), {
 });
 
 const Home = ({ products }) => {
+  //hacky timeout
+  const [load, setLoad] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoad(true);
+    }, 1000);
+  }, []);
+
   const lighting = products.filter((obj) => {
     return obj.category === "lighting";
   });
@@ -43,23 +51,24 @@ const Home = ({ products }) => {
     <div>
       <CoverVideo />
       <HomeSection />
-
-      <div
-        className="products-heading"
-        animate={{ opacity: 1, transition: { duration: 2 } }}
-        initial={{ opacity: 0 }}
-      >
-        <div className="products-container" id="prods">
-          {ravens?.map((product) => (
-            <Product key={product._id} product={product} />
-          ))}
+      {load && (
+        <div
+          className="products-heading"
+          animate={{ opacity: 1, transition: { duration: 2 } }}
+          initial={{ opacity: 0 }}
+        >
+          <div className="products-container" id="prods">
+            {ravens?.map((product) => (
+              <Product key={product._id} product={product} />
+            ))}
+          </div>
+          <div className="products-container">
+            {lighting?.map((product) => (
+              <Product key={product._id} product={product} />
+            ))}
+          </div>
         </div>
-        <div className="products-container">
-          {lighting?.map((product) => (
-            <Product key={product._id} product={product} />
-          ))}
-        </div>
-      </div>
+      )}
       <SubSection />
       <Info />
 

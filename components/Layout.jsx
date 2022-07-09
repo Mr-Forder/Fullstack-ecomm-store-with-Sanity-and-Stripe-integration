@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import Head from "next/head";
 import Navbar from "./Navbar";
 import Navigation from "../components/Navigation";
@@ -5,15 +6,13 @@ import Footer from "../components/Footer";
 //adds
 
 const Layout = ({ children }) => {
-  const scrollTo = (id) => {
-    let element = document.getElementById(id);
-
-    element.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-      inline: "nearest",
-    });
-  };
+  //hacky timeout
+  const [load, setLoad] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoad(true);
+    }, 1000);
+  }, []);
 
   return (
     <div className="layout">
@@ -44,9 +43,11 @@ const Layout = ({ children }) => {
         <Navigation />
       </header>
       <main>{children}</main>
-      <footer>
-        <Footer />
-      </footer>
+      {load && (
+        <footer>
+          <Footer />
+        </footer>
+      )}
     </div>
   );
 };
