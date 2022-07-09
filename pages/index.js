@@ -49,8 +49,14 @@ const Home = ({ products }) => {
   });
   return (
     <div>
-      <CoverVideo />
-      <HomeSection />
+      <motion.div
+        animate={{ opacity: 1, transition: { duration: 2 } }}
+        initial={{ opacity: 0 }}
+      >
+        <CoverVideo />
+        <HomeSection />
+      </motion.div>
+
       {load && (
         <div
           className="products-heading"
