@@ -125,6 +125,7 @@ const Container = styled.div`
     h2 {
       padding: 1rem 0rem;
       color: #0d6389;
+      font-size: 1.5rem;
     }
 
     p {

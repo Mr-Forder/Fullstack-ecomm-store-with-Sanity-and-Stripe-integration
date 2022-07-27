@@ -12,8 +12,6 @@ const Navbar = () => {
     <div className="navbar-container">
       <p className="logo"></p>
       <motion.button
-        animate={{ opacity: 1, transition: { duration: 5 } }}
-        initial={{ opacity: 0 }}
         type="button"
         className="cart-icon"
         onClick={() => {
