@@ -38,7 +38,7 @@ const Home = ({ products }) => {
   useEffect(() => {
     setTimeout(() => {
       setLoad(true);
-    }, 1000);
+    }, 3000);
   }, []);
 
   const lighting = products.filter((obj) => {
