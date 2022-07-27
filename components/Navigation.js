@@ -22,8 +22,8 @@ const Navigation = () => {
         </HamburgerMenu>
 
         <Menu click={click}>
-          <Link href={`/`}>
-            <MenuItem onClick={() => setClick(!click)}>Gokotta</MenuItem>
+          <Link href={`/about`}>
+            <MenuItem onClick={() => setClick(!click)}>About Gokotta</MenuItem>
           </Link>
           <Link href={`/hrafn`}>
             <MenuItem onClick={() => setClick(!click)}>Hrafn</MenuItem>
