@@ -75,7 +75,7 @@ const Home = ({ products }) => {
           </div>
         </div>
       )}
-      <SubSection />
+
       <Info />
 
       {/* <Faq id="faq" /> */}
