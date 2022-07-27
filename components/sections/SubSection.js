@@ -26,9 +26,7 @@ const SubSection = () => {
       </div>
       <Container>
         <div className="info">
-          <h2>
-            The Gokotta collection marks Brahe&apos;s seventh year in business.
-          </h2>
+          <h2>The Gokotta collection marks Brahe&apos;s seventh year.</h2>
           <p>
             Bringing together the works of Marcantonio Raimondi Malerba, Johann
             Steyn and Ania Kabassa, Gokotta seeks to blend Nordic tradition with

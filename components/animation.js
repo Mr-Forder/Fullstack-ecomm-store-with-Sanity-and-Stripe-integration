@@ -11,13 +11,6 @@ export const pageAnimation = {
       staggerChildren: 0.25,
     },
   },
-  exit: {
-    opacity: 0,
-    y: 0,
-    transition: {
-      duration: 0.25,
-    },
-  },
 };
 
 export const titleAnim = {

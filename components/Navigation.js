@@ -11,7 +11,7 @@ const Navigation = () => {
   return (
     <Section
       id="navigation"
-      animate={{ opacity: 1, transition: { duration: 5 } }}
+      animate={{ opacity: 1, transition: { duration: 3 } }}
       initial={{ opacity: 0 }}
     >
       <NavBar>

@@ -49,20 +49,13 @@ const Home = ({ products }) => {
   });
   return (
     <div>
-      <motion.div
-        animate={{ opacity: 1, transition: { duration: 2 } }}
-        initial={{ opacity: 0 }}
-      >
+      <motion.div>
         <CoverVideo />
         <HomeSection />
       </motion.div>
 
       {load && (
-        <div
-          className="products-heading"
-          animate={{ opacity: 1, transition: { duration: 2 } }}
-          initial={{ opacity: 0 }}
-        >
+        <div className="products-heading">
           <div className="products-container" id="prods">
             {ravens?.map((product) => (
               <Product key={product._id} product={product} />
