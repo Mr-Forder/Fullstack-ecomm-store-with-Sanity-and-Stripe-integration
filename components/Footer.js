@@ -42,7 +42,7 @@ const Footer = () => {
         </Left>
         <MenuItems>
           <Item>
-            <Link href={`/`}>Gokotta</Link>
+            <Link href={`/about`}>About Gokotta</Link>
           </Item>
           <Item>
             <Link href="/#prods">Shop</Link>
